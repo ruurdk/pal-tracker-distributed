@@ -21,4 +21,6 @@ dependencies {
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
 
     testCompile project(":components:test-support")
+
+    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker"
 }
